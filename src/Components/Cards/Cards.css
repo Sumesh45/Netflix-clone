@@ -1,0 +1,47 @@
+.card-container{
+    color: #fff;
+    margin-left: 20px;
+}
+.card-posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.card-posters img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card-posters::-webkit-scrollbar{
+    display: none;
+}
+.card-posters img{
+    max-height:250px ;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.small-posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    
+    
+  
+}
+.small-posters img{
+    max-height:150px ;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.small-posters::-webkit-scrollbar{
+    display: none;
+}
+.small-posters img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
